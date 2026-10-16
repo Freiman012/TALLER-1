@@ -26,8 +26,11 @@ int validarCodigo(const char *codigo) {
  void mostrarContenedor(Contenedor contenedor) {
     printf("Codigo: %s\n", contenedor.codigo);
     printf("Peso: %.2f toneladas\n", contenedor.peso);
-    printf("Tipo de carga: %s\n", contenedor.tipo);
- }
+    printf("Tipo de carga:%s\n", contenedor.tipo);
+
+}
+
+ 
 
 
 
